@@ -1,8 +1,5 @@
 import { getAuth } from "./firebase.js";
-import {signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/8.10.1/firebase-signInWithEmailAndPassword.js"
-document.getElementById("loginForm").addEventListener("submit", (event) => {
-    event.preventDefault();
-});
+import {signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"
 let loginbtn = getElementById("login").value
 let signupbtn = getElementById("signup").value
 let forgetbtn = getElementById("signup").value

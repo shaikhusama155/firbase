@@ -6,6 +6,9 @@ body{
 *, *::before, *::after{
     box-sizing: border-box;
 }
+#loginForm{
+    width: 400px;
+}
 
 .custom-field{
     position: relative;
@@ -15,6 +18,7 @@ body{
 }
 
 .custom-field input{
+    justify-content: center;
     padding: 12px;
     width: 300px;
     font-size: 14px;
