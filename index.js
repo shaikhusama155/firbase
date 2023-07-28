@@ -1,3 +1,27 @@
+// import { auth ,initializeApp} from "./firebase/auth";
+// import {createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+
+// let loginbutton = getElementById("login")
+// let signupbutton = getElementById("signup")
+// let forgetbtn = getElementById("forgetpas")
+// const getEmail = document.getElementById("email")
+// const getPassword = document.getElementById("password")
+
+// signupbutton.addEventListener('click', ()=>{
+//     const userE = getEmail.value 
+//     const userP = getPassword.value
+// createUserWithEmailAndPassword(auth, email, password)
+//   .then((userCredential) => {
+//     // Signed in 
+//     const user = userCredential.user;
+//     console.log('create account');
+//     alert('Account created')
+//   })
+//   .catch((error) => {
+//     const errorCode = error.code;
+//     document.getElementById("error").innerHTML = error.message;  
+//   });
+// })
 // import { auth } from "./firebase"
 // import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"
 
